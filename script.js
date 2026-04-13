@@ -25,6 +25,13 @@ function initMap() {
 		streetViewControl: false,
 		minZoom: 16, // Minimum zoom level
 		maxZoom: 20, // Maximum zoom level
+		styles: [
+			{
+				featureType: "poi",
+				elementType: "labels",
+				stylers: [{ visibility: "off" }]
+			}
+		]
 	});
 
 	// -27.147997334974797, -48.5923410773642
