@@ -19,7 +19,7 @@ function initMap() {
 		},
 		zoom: 16,
 		mapTypeId: "roadmap",
-		// mapId: 'MAP_ID',
+		
 		mapTypeControl: false,
 		fullscreenControl: false,
 		streetViewControl: false,
