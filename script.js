@@ -18,7 +18,7 @@ function initMap() {
 			strictBounds: false,
 		},
 		zoom: 16,
-		mapTypeId: "satellite",
+		mapTypeId: "roadmap",
 		mapId: 'MAP_ID',
 		mapTypeControl: false,
 		fullscreenControl: false,
@@ -32,8 +32,8 @@ function initMap() {
 
 	// Markers data: Name, Latitude, Longitude, Image URL, Scaled Size (width, height), ShowTag, PanoramaToShow
 	const markers = [
-		["Monaco", -27.147997334974797, -48.5923410773642, 'MonacoGeo.png', 100, 160, 'M_Monaco', 'MonacoEsquinaDir'],
-		["Catalunya", -27.152905154756596, -48.57885333864494, 'CatalunyaGeo.png', 100, 160, 'M_Cata', 'CatalunyaMeio']
+		["Monaco", -27.147997334974797, -48.5923410773642, 'MonacoGeo.png', 30, 50, 'M_Monaco', 'MonacoEsquinaDir'],
+		["Catalunya", -27.152905154756596, -48.57885333864494, 'CatalunyaGeo.png', 30, 50, 'M_Cata', 'CatalunyaMeio']
 	];
 
 	// Loop over markers array to create markers on the map
